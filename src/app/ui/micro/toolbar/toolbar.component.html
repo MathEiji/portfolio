@@ -1,0 +1,44 @@
+<div class="navbar-container">
+    <mat-sidenav-container class="sidenav-container">
+        <mat-toolbar class="tbar">
+            <button class="t-button" mat-button type="button" (click)="expand()">
+                <mat-icon>reorder</mat-icon>
+            </button>
+            <span class="t-name">Matheus Eiji Moriya dos Santos</span>
+        </mat-toolbar>
+
+        <mat-sidenav class="t-sidenav" mode="over" [(opened)]="expanded">
+            <div>
+                <button class="button-sidenav" mat-button type="button" (click)="expand()">X</button>
+            </div>
+
+            <div>
+                <mat-nav-list class="t-list">
+                  <mat-list-item>
+                      <a href="">Sobre</a>
+                  </mat-list-item>
+      
+                  <mat-divider></mat-divider>
+      
+                  <mat-list-item>
+                      <a href="">Conhecimentos</a>
+                  </mat-list-item>
+      
+                  <mat-divider></mat-divider>
+      
+                  <mat-list-item>
+                      <a href="">Experiencia</a>
+                  </mat-list-item>
+      
+                  <mat-divider></mat-divider>
+      
+                  <mat-list-item>
+                      <a href="">Projetos</a>
+                  </mat-list-item>
+      
+              </mat-nav-list>
+            </div>          
+        
+        </mat-sidenav>
+      </mat-sidenav-container>
+</div>

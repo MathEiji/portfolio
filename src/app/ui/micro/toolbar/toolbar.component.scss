@@ -1,0 +1,23 @@
+.navbar-container {
+  .sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .tbar {
+      .t-name {
+        margin: auto;
+      }
+    }
+    .t-sidenav {
+      .button-sidenav {
+        position: relative;
+        float: right;
+      }
+      .t-list {
+        margin: 25% 2% 1% 2%;
+      }
+    }
+  }
+}
